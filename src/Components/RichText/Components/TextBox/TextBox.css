@@ -1,0 +1,10 @@
+#TextBox {
+    height: 400px;
+    box-shadow: 0 10px 20px rgb(213, 213, 213), 0 6px 6px rgb(172, 172, 172);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
