@@ -1,0 +1,16 @@
+.Footer {
+    padding: 1rem;
+    font-family: 'Arial';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+    padding-right: 5px;
+}
+
+a{
+    color:gray;
+}

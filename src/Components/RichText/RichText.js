@@ -15,8 +15,8 @@ function RichText() {
 
     return (
       <div className="RichText">
-        <Toolbox buttonActionCallback={buttonActionCallback}></Toolbox>
-        <TextBox command={command} changes={changes}></TextBox>
+        <Toolbox buttonActionCallback={buttonActionCallback}/>
+        <TextBox command={command} changes={changes}/>
       </div>
     );
   }

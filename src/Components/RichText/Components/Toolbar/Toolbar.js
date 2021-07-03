@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Components/Button/Button';
 
-import { BsTypeBold, BsTypeItalic, BsTextLeft, BsTextCenter, BsTextRight} from "react-icons/bs";
+import { BsTypeBold, BsTypeItalic, BsTextLeft, BsTextCenter, BsTextRight, BsListTask, BsListOl} from "react-icons/bs";
 
 function Toolbar(props) {
 
@@ -11,6 +11,9 @@ function Toolbar(props) {
         {"command": "justifyLeft", "icon": BsTextLeft},
         {"command": "justifyCenter", "icon": BsTextCenter},
         {"command": "justifyRight", "icon": BsTextRight},
+        {"command": "insertUnorderedList", "icon": BsListTask},
+        {"command": "insertOrderedList", "icon": BsListOl},
+
     ]
 
     const buttonActionCallback = (command) => {
